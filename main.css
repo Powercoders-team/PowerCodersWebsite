@@ -21,6 +21,9 @@
     font-size: 15px;
     font-family: 'Alata';
 }
-.normal:hover {
-    background-color: black;
+.normal {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Alata';
 }
