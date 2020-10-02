@@ -6,7 +6,7 @@ body {
   font-family: 'Alata';
 }
 ul {
-  background-color: rgb(110, 110, 110);
+  background-color: black;
   padding: 0;
   margin: 0;
 }
@@ -22,10 +22,10 @@ nav > ul > li {
   display: inline-block;
 }
 nav > ul > li:hover {
-  background-color: rgb(80, 80, 80);
+  background-color: darkgray;
 }
 .here {
-  background-color: rgb(60, 60, 60);
+  background-color: darkgray;
 }
 .field {
   margin: 5px;
@@ -35,7 +35,7 @@ nav > ul > li:hover {
 .logo {
   margin: 0;
   color: white;
-  background-color: rgb(27, 27, 27);
+  background-color: black;
   padding: 20px;
 }
 .small {
