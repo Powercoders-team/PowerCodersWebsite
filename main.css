@@ -29,4 +29,27 @@ body {
   color: white;
   font-size: 30px;
   padding: 20px;
+  margin: 0;
+}
+.member-profiles {
+  padding-top: 30px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+.profile {
+  width: 200px;
+  border-radius: 100000px;
+  display: block;
+  margin: auto;
+}
+.github-username {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.title {
+  text-align: center;
+}
+.member-content {
+  text-align: center;
+  margin-bottom: 50px;
 }
