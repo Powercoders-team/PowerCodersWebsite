@@ -44,7 +44,6 @@ body {
 }
 .github-username {
   text-align: center;
-  padding-bottom: 20px;
 }
 .title {
   text-align: center;
@@ -57,7 +56,10 @@ body {
   text-align: center;
 }
 .github-profile-link {
-  color: white;
+  color: black;
   text-align: center;
   text-decoration: none;
+  padding: 10px;
+  display: block;
+  margin: auto;
 }
