@@ -14,17 +14,25 @@
                     </td>
                     <td class="align-right">
                         <nav id="menu-nav">
-                            <a href="index.html" style="background-color: #aaa;">Home</a>
-                            <a href="chat.html">Chat</a>
+                            <a href="index.html">Home</a>
+                            <a href="chat.html" style="background-color: #aaa;">Chat</a>
                         </nav>
                     </td>
                 </tr>
             </tbody>
         </table>
         <p style="height: 0px;"></p>
+
         <div id="content">
-            <a href="mailto:kevinliucuber@gmail.com" id="contact">Contact us</a>
+            <ul id="messages" class='message-box'></ul>
+            <div class='send-box'>
+                <input id='namebox' type='text' placeholder='Type your username...'>
+                <br>
+                <input id="textbox" type='text' placeholder='Type your message...'>
+                <button id="send-btn" class='send'>Send</button>
+            </div>
         </div>
-        <script src="script_index.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="script_chat.js"></script>
     </body>
 </html>
