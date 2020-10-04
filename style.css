@@ -1,33 +1,35 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-#menu{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 76px;
-    right: 0px;
-    background-color: lightslategray;
+
+body{
+    margin: 0;
 }
-.menu-item{
-    display: inline-block;
+
+table{
+    background-color: rgb(27, 27, 27);
+    width: 100%;
 }
-#menu-item-home-link{
-    border: none;
-    color: #393939;
-    background-color: cornflowerblue;
+
+#menu-nav{
+    margin-right: 16px;
 }
-#menu-item-home:hover #menu-item-home-dropdown{
-    display: block;
+
+#menu-nav a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
 }
-#menu-item-home-dropdown{
-    background-color: aquamarine;
-    position: absolute;
-    display: none;
+
+#menu-title{
+    margin-left: 16px;
+    color: white;
 }
-#spacing{
-    height: 76px;
+
+#content{
+    margin-left: 8px;
 }
+
 #contact{
     background-color: #f59042;
     color: #3e515c;
@@ -36,4 +38,28 @@
     font-size: 54px;
 }
 
+.align-right{
+    text-align: right;
+}
 
+.message-box{
+    list-style-type: none;
+}
+
+.send-box{
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+}
+
+/* #messages li{
+
+} */
+
+.chat-delete{
+    opacity: 0;
+}
+
+.chat-delete:hover{
+    opacity: 100;
+}
