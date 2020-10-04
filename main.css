@@ -56,3 +56,8 @@ body {
 .about {
   text-align: center;
 }
+.github-profile-link {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
