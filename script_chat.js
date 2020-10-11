@@ -1,4 +1,4 @@
-document.getElementById("send-btn").onclick = function(){
+document.getElementById('send').onclick = function(){
     "use strict";
     let messages = document.getElementById("messages");
     let textbox = document.getElementById("textbox");
