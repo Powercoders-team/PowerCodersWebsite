@@ -18,10 +18,13 @@ table{
 }
 
 #menu-nav a{
-    height: 100%;
     text-decoration: none;
     color: white;
     margin: 5px;
+}
+
+#menu-nav a:hover{
+    color: #e2e2e2;
 }
 
 #menu-title{

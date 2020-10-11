@@ -1,38 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>PowerCoders Website</title>
-        <link rel='stylesheet' href='style.css'>
-    </head>
-    <body>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        <h2 id="menu-title">PowerCoders</h2>
-                    </td>
-                    <td class="align-right">
-                        <nav id="menu-nav">
-                            <a href="index.html">Home</a>
-                            <a href="chat.html">Chat</a>
-                            <a href="tutorial.html">Tutorial</a>
-                        </nav>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p style="height: 0px;"></p>
-
-        <div id="content">
-            <ul id="messages" class='message-box'></ul>
-            <div class='send-box'>
-                <input id='namebox' type='text' placeholder='Type your username...'>
-                <br>
-                <input id="textbox" type='text' placeholder='Type your message...'>
-                <button id="send-btn" class='send'>Send</button>
-            </div>
-        </div>
-        <script src="script_chat.js"></script>
-    </body>
+<html lang='en'>
+  <head>
+    <title>PowerCoders</title>
+    <link rel='stylesheet' href='main.css'>
+  </head>
+  <body>
+    <div class='nav-bar'>
+      <h1 class='page-title'>PowerCoders</h1>
+      <ul>
+        <li><a href='index.html'>Home</a></li>
+        <li><a href='info.html'>Info</a></li>
+        <li><a href='chat.html'>Chat</a></li>
+        <li><a href='html-tutorial.html'>HTML Tutorial</a></li>
+        <li><a href='mailto:kevinliucuber@gmail.com'>Contact us</a></li>
+      </ul>
+    </div>
+    <ul id="messages" class='message-box'></ul>
+    <div class='send-box'>
+      <input id='namebox' type='text' placeholder='Type your username...'>
+      <br>
+      <input id='textbox' type='text' placeholder='Type your message...'>
+      <button id='send'>Send</button>
+    </div>
+    <script src="script-chat.js"></script>
+  </body>
 </html>

@@ -1,15 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Alata);
+
 * { box-sizing: border-box; }
 
 body {
   margin: 0;
   font-family: 'Alata';
 }
+
 .nav-bar > ul {
   background-color: rgb(50, 50, 50);
   padding: 0;
   margin: 0;
 }
+
 .nav-bar > ul > li > a {
   padding: 20px;
   display: inline-block;
@@ -18,12 +21,15 @@ body {
   font-family: 'Alata';
   margin: 0;
 }
+
 .nav-bar > ul > li {
   display: inline-block;
 }
+
 .nav-bar > ul > li:hover {
   background-color: rgb(100, 100, 100);
 }
+
 .page-title {
   background-color: black;
   color: white;
@@ -31,30 +37,37 @@ body {
   padding: 20px;
   margin: 0;
 }
+
 .member-profiles {
   padding-top: 30px;
   margin: 0;
   padding-bottom: 30px;
 }
+
 .profile {
   width: 200px;
   border-radius: 100000px;
   display: block;
   margin: auto;
 }
+
 .github-username {
   text-align: center;
 }
+
 .title {
   text-align: center;
 }
+
 .member-content {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .about {
   text-align: center;
 }
+
 .github-profile-link {
   color: black;
   text-align: center;
@@ -63,6 +76,7 @@ body {
   display: block;
   margin: auto;
 }
+
 .tutorial {
   background-position: center;
   background-size: 400px;
@@ -71,23 +85,37 @@ body {
   border: 2px solid rgb(50, 50, 50);
   padding: 20px;
 }
+
 .tutorial-image {
   width: 300px;
   height: 300px;
   display: block;
   margin: auto;
 }
+
 .tutorial-link {
   color: black;
   text-decoration: none;
 }
+
 .tutorial-link:hover {
   text-decoration: underline;
 }
+
 .tutorial-module {
   text-align: center;
   width: 30%;
   background-color: rgb(197, 197, 197);
   padding: 20px;
   border: 2px solid rgb(100, 100, 100);
+}
+
+#messages{
+  list-style-type: none;
+}
+
+.send-box{
+  position: absolute;
+  bottom: 24px;
+  left: 16px;
 }
