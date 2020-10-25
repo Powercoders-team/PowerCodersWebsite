@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <title>PowerCoders</title>
+    <link rel='stylesheet' href='../../main.css'>
+</head>
+<body>
+    <h1 class='page-title'>Module Two: Arithmetic up Python</h1>
+    <p>Welcome to Module Two of the Python for Beginners Tutorial!</p>
+    <p>In this module, you will start to perform mathematic operations using Python.</p>
+    <a href='slide-one.html' class='text-content next-back-link'>&larrb; Back</a> <a href='slide-two.html'
+        class='text-content next-back-link'>Next &rarrb;</a>
+</body>
+</html>
