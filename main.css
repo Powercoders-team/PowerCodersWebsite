@@ -131,3 +131,16 @@ body {
   bottom: 24px;
   left: 16px;
 }
+.logo-image {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+.page-subtitle {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin: 0;
+}
