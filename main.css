@@ -116,10 +116,13 @@ body {
 
 .tutorial-module {
   text-align: center;
-  width: 30%;
+  width: 470px;
   background-color: rgb(197, 197, 197);
   padding: 20px;
   border: 2px solid rgb(100, 100, 100);
+  display:inline-block;
+  height: 200px;
+  margin: 0;
 }
 
 #messages{
