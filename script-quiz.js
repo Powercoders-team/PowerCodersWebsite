@@ -4,7 +4,7 @@ for(var i = 0; i < quiz_buttons.length; i++){
         'use strict';
         let parent = this.parentNode;
         let correct = parent.dataset.correct;
-        if(this.id === correct){
+        if(this.dataset.quizval === correct){
             alert('Correct!');
         }
         else{

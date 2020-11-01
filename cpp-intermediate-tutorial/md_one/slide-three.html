@@ -16,12 +16,29 @@
             </ul>
         </div>
         <h3>C++ for Intermediate Programmers | Module One: Basics of C++</h3>
-        <p>In C++, you can't just put your code outside of a function.</p>
-        <p class='question'>Then where do you put your code?</p>
-        <p>Good question! As we saw in the previous slide, all of your main code has to go into a function called main.</p>
-        <p>Then, the cout bit makes the program output "Hello World!", followed by a newline.</p>
-        <p>The return 0; tells the program to exit with a return code of 0, meaning no errors have happened.</p>
+        <p class='note'>You should complete the <a href='../../python-tutorial.html'>Python for Beginners tutorial</a> before attempting this tutorial.</p>
+        <p class='warning'>C++ is very tricky! Don't expect yourself to work things out first try!</p>
+        <p>Let's start with a simple "Hello World":</p>
+        <pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main(){
+    cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+    return 0;
+}
+</code></pre>
+        <p class='note'>As you might see, this is several orders of magnitude more complex than the <a href='../../python-beginners-tutorial/md_one/slide-three.html'>Python example</a>.</p>
+        <p>The #include &lt;iostream&gt; bit tells the <em>preprocessor</em> to include the <em>&lt;iostream&gt;</em> header.</p>
+        <p>This allows you to use all of the basic input-output functions.</p>
+        <p>The using namespace std; bit tells the compiler to bring in all the things in the <em>std</em> namespace into the global namespace. Don't worry if you don't know what this means. It just means that you don't have to type</p>
+        <pre><code>std::</code></pre>
+        <p>if you want to access some functions.</p>
+        <p>In C++, there must be a function called main. What purpose might it serve? Can you rename it?</p>
+        <div class='quiz' data-correct='4'>
+            <button data-quizval='1' class='quiz-button'>Nothing</button> <button data-quizval='2' class='quiz-button'>I don't know</button><br>
+            <button data-quizval='3' class='quiz-button'>It serves as a function to store your code, but it can be renamed to anything that starts with "main"</button> <button data-quizval='4' class='quiz-button'>It serves as a function to store your code; you can't rename it</button>
+        </div>
         <a href='slide-two.html' class='text-content next-back-link'>&larrb; Back</a> <a href='slide-four.html'
         class='text-content next-back-link'>Next &rarrb;</a>
+        <script src='../../script-quiz.js'></script>
     </body>
 </html>
