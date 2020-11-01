@@ -162,3 +162,7 @@ body {
 .warning {
     background-color: yellow;
 }
+
+.question {
+    background-color: purple;
+}
