@@ -166,3 +166,18 @@ body {
 .question {
     background-color: purple;
 }
+
+.tutorial-code-title {
+    background-color: rgb(200, 200, 200);
+    color: white;
+    margin: 0;
+    width: 100px;
+    text-align: center;
+}
+
+.tutorial-code-box {
+    border: 2px solid rgb(200, 200, 200);
+    padding: 20px;
+    font-family: none;
+    margin: 0;
+}
