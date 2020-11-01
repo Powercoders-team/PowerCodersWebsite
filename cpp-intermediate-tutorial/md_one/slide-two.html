@@ -17,8 +17,22 @@
         </div>
         <h3>C++ for Intermediate Programmers | Module One: Basics of C++</h3>
         <p class='note'>You should complete the <a href='../../python-tutorial.html'>Python for Beginners tutorial</a> before attempting this tutorial.</p>
-        <p>HTML stands for Hypertext Markup Language and is the standard language used to build websites, like this one!</p>
-        <p>When you use HTML to build webpages, you use a collection of different elements to define the content on the webpage.</p>
+        <p class='warning'>C++ is very tricky! Don't expect yourself to work things out first try!</p>
+        <p>Let's start with a simple "Hello World":</p>
+        <pre><code>#include &lt;iostream&gt;
+using namespace std;
+int main(){
+    cout &lt;&lt; "Hello World!" &lt;&lt; endl;
+    return 0;
+}
+</code></pre>
+        <p class='note'>As you might see, this is several orders of magnitude more complex than the <a href='../../python-beginners-tutorial/md_one/slide-three.html'>Python example</a>.</p>
+        <p>The #include &lt;iostream&gt; bit tells the <em>preprocessor</em> to include the <em>&lt;iostream&gt;</em> header.</p>
+        <p>This allows you to use all of the basic input-output functions.</p>
+        <p>The using namespace std; bit tells the compiler to bring in all the things in the <em>std</em> namespace into the global namespace. Don't worry if you don't know what this means. It just means that you don't have to type</p>
+        <pre><code>std::</code></pre>
+        <p>if you want to access some functions.</p>
+        <p>In C++, there must be a function called main.</p>
         <a href='slide-one.html' class='text-content next-back-link'>&larrb; Back</a> <a href='slide-three.html'
         class='text-content next-back-link'>Next &rarrb;</a>
     </body>
