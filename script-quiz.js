@@ -1,14 +1,16 @@
-var quiz_buttons = document.getElementsByClassName('quiz-button');
-for(var i = 0; i < quiz_buttons.length; i++){
-    quiz_buttons[i].onclick = function(){
-        'use strict';
-        let parent = this.parentNode;
-        let correct = parent.dataset.correct;
-        if(this.dataset.quizval === correct){
-            alert('Correct!');
-        }
-        else{
-            alert('Incorrect.');
+var quizzes = document.getElementsByClassName('quiz');
+for(let i = 0; i < quizzes.length; i++){
+    let children = quizzes[i].children;
+    let correct = quizzes[i].dataset.correct;
+    for(let j = 0; j < children.length; j++){
+        children[j].onclick = function(){
+            'use strict';
+            if(this.dataset.quizval === correct){
+                alert('Correct!');
+            }
+            else{
+                alert('Incorrect.');
+            }
         }
     }
 }
