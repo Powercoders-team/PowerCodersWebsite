@@ -8,7 +8,7 @@ document.getElementById('send').onclick = function(){
         alert('Message cannot be empty.');
         return;
     }
-    newMessage.innerHTML = '<p>' + (namebox.value + ': ' + textbox.value).replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</p>';
+    newMessage.textContent = namebox.value + ': ' + textbox.value;
     newMessage.className = 'chat-message';
     messages.appendChild(newMessage);
     textbox.value = "";
