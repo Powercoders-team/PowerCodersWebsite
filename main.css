@@ -186,9 +186,10 @@ body {
     margin: 0;
 }
 
-.quiz > button {
-    background-color: rgb(78, 247, 78);
+.quiz > button, .tab > button {
+    background-color: rgb(34, 214, 34);
     border: none;
     border-radius: 5px;
     padding: 3px 6px;
+    margin: 2px;
 }
