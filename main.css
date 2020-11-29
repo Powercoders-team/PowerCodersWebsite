@@ -78,13 +78,6 @@ body {
 }
 
 .tutorial {
-    /* background-position: center;
-    background-size: 400px;
-    width: 50%;
-    text-align: center;
-    border: 2px solid rgb(50, 50, 50);
-    padding: 20px;
-    vertical-align: middle; */
     position: absolute;
     border: 2px solid rgb(50, 50, 50);
     width: 100%;
@@ -193,3 +186,27 @@ body {
     padding: 3px 6px;
     margin: 2px;
 }
+
+/*
+,_________________________________.
+( Can we get to 200 lines of CSS? )
+( Wait, we already did!           )
+(                   ~~~ Foxy      )
+`---------------------------------'
+         \     ,-.      .-,
+          \    |  \ __ /  |
+           \   \.~^    ^-./
+            \   /_     _ \
+              <  _`q  p _  >
+              <.._=/  \=_. >
+                 {`\()/`}`\
+                 {      }  \
+                 |{    }    \
+                 \ '--'   .- \
+                 |-     .`    \
+                 | | | |       ;
+                 | | |.;.,..__ |
+            ,-<:--"";`         `|
+           *                   /
+           \._>-..-____,..---'`
+*/
