@@ -17,3 +17,4 @@ document.getElementById('send').onclick = function(){
     messages.appendChild(newMessage);
     textbox.value = '';
 };
+//
