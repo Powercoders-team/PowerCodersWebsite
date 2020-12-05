@@ -4,7 +4,7 @@ for(let i = 0; i < tabs.length; i++){
     for(let j = 0; j < children.length - 1; j++){
         children[j].onclick = function(){
             'use strict';
-            tabs[i].lastElementChild.textContent = eval(this.dataset.message);
+            tabs[i].lastElementChild.innerHTML = eval(this.dataset.message);
         }
     }
 }
